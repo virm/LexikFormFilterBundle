@@ -75,7 +75,7 @@
 
         <!-- Type extension -->
         <service id="lexik_form_filter.type_extension.filter_extension" class="%lexik_form_filter.type_extension.filter_extension.class%">
-            <tag name="form.type_extension" alias="form" />
+            <tag name="form.type_extension" alias="form" extended-type="Symfony\Component\Form\Extension\Core\Type\FormType" />
         </service>
     </services>
 </container>
